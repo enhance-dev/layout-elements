@@ -21,7 +21,7 @@ export default sidebar
 Use the element in your app:
 
 ```html
-<layout-sidebar breakpoint='48em' gap='1rem' sidebar-width='25vw'>
+<layout-sidebar>
   <aside slot='sidebar'>
     <!-- sidebar content… -->
   </aside>
@@ -79,7 +79,13 @@ The following example will cap the height of the scrollbar at the current viewpo
   }
 </style>
 
-<layout-sidebar breakpoint='48em' gap='1rem' sidebar-width='25vw' sidebar-min='200px' sidebar-max='400px'>
+<layout-sidebar
+  breakpoint='48em'
+  gap='1rem'
+  sidebar-width='25vw'
+  sidebar-min='200px'
+  sidebar-max='400px'
+>
   <aside slot='sidebar'>
     <!-- sidebar content… -->
   </aside>

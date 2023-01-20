@@ -1,0 +1,23 @@
+{
+  "name": "@enhance/layout-elements",
+  "version": "0.0.0",
+  "description": "A collection of custom elements for implementing layout patterns in Enhance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enhance-dev/layout-elements.git"
+  },
+  "keywords": [
+    "enhance",
+    "layout"
+  ],
+  "author": "Cole Peters <cole@begin.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/enhance-dev/layout-elements/issues"
+  },
+  "homepage": "https://github.com/enhance-dev/layout-elements#readme"
+}

@@ -8,15 +8,15 @@ export default function LayoutCollection ({ html, state }) {
   } = attrs
 
   if (!['start', 'end', 'center'].includes(snapAlign)) {
-    console.log('layout-collection: snap-align attribute should be one of "start", "end", or "center"')
+    console.warn('layout-collection: snap-align attribute should be one of "start", "end", or "center"')
   }
 
   if (!['normal', 'always'].includes(snapStop)) {
-    console.log('layout-collection: snap-stop attribute should be one of "normal" or "always"')
+    console.warn('layout-collection: snap-stop attribute should be one of "normal" or "always"')
   }
 
   if (!['mandatory', 'proximity', 'none'].includes(snapType)) {
-    console.log('layout-collection: snap-type attribute should be one of "mandatory", "proximity", or "none"')
+    console.warn('layout-collection: snap-type attribute should be one of "mandatory", "proximity", or "none"')
   }
 
   return html`

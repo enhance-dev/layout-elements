@@ -25,7 +25,7 @@ export default function LayoutCollection ({ html, state }) {
         display: flex;
         gap: ${gap};
         overflow-x: scroll;
-        overscroll-behavior: contain;
+        overscroll-behavior-x: contain;
         scroll-snap-type: x ${snapType};
       }
       

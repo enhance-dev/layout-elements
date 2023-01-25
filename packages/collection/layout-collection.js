@@ -26,7 +26,7 @@ export default function LayoutCollection ({ html, state }) {
         gap: ${gap};
         overflow-x: scroll;
         overscroll-behavior-x: contain;
-        scroll-snap-type: x ${snapType};
+        scroll-snap-type: ${snapType === 'none' ? 'none' : `x ${snapType}`};
       }
       
       :host > * {

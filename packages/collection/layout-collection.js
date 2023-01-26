@@ -32,7 +32,7 @@ export default function LayoutCollection ({ html, state }) {
       :host > * {
         scroll-snap-align: ${snapAlign};
         scroll-snap-stop: ${snapStop};
-        flex: 1 0 auto;
+        max-height: 100%;
       }
     </style>
     <slot></slot>

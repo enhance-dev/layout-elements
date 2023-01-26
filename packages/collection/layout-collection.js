@@ -33,6 +33,7 @@ export default function LayoutCollection ({ html, state }) {
         scroll-snap-align: ${snapAlign};
         scroll-snap-stop: ${snapStop};
         max-height: 100%;
+        flex-shrink: 0;
       }
     </style>
     <slot></slot>

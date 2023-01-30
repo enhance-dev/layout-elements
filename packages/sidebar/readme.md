@@ -46,7 +46,7 @@ Use the element in your app:
 | breakpoint | 0 | The width to use for the `min-width` breakpoint at which the layout should shift from block formatting to flexbox formatting |
 | gap | 0 | The size of the gap to set between the sidebar and main content |
 | sidebar-width | auto | The preferred width of the sidebar |
-| sidebar-min | none | The minimum width of the sidebar; use in combination with a fluid `sidebar-width` |
+| sidebar-min | 0 | The minimum width of the sidebar; use in combination with a fluid `sidebar-width` |
 | sidebar-max | none | The maximum width of the sidebar; use in combination with a fluid `sidebar-width` |
 | sidebar-position | 'start' | The position of the sidebar; when set to 'end', the sidebar will render after the main content |
 

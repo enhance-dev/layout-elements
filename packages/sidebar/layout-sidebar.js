@@ -4,7 +4,7 @@ export default function LayoutSidebar({ html, state }) {
     breakpoint = '0',
     gap = '0',
     'sidebar-width': sidebarWidth = 'auto',
-    'sidebar-min': sidebarMin = 'none',
+    'sidebar-min': sidebarMin = '0',
     'sidebar-max': sidebarMax = 'none',
     'sidebar-position': sidebarPosition = 'start',
   } = attrs
@@ -18,6 +18,7 @@ export default function LayoutSidebar({ html, state }) {
         }
 
         ::slotted([slot='sidebar']) {
+          flex-shrink: 0;
           width: ${sidebarWidth};
           min-width: ${sidebarMin};
           max-width: ${sidebarMax};

@@ -1,6 +1,6 @@
 {
   "name": "@enhance/layout-elements",
-  "version": "0.0.1-alpha.7",
+  "version": "0.0.1-alpha.8",
   "description": "A collection of custom elements for implementing layout patterns in Enhance",
   "type": "module",
   "main": "index.js",
